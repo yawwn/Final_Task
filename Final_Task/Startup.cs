@@ -56,8 +56,8 @@ namespace Final_Task
             services.AddTransient<IVersionRepository, VersionRepository>();
             services.AddTransient<IAdditionalService, AdditionalService>();
 
-            //services.AddScoped<IMaterialRepository, MaterialRepository>;
-            //services.AddScoped<IVersionRepository, VersionRepository>;
+            //services.AddScoped<IMaterialRepository, MaterialRepository>();
+            //services.AddScoped<IVersionRepository, VersionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
